@@ -8,7 +8,6 @@
   margin:0;
 }
 .banner{
-  padding-top: 10px;
   background-size: cover;
   height: 448px;
   background-position:center ;
@@ -72,6 +71,7 @@ body{
   width:100%;
   max-height: 100px;
   transition: transform 450ms;
+  
 }
 .row_poster:hover{
   transform: scale(1.08);
