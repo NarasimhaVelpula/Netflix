@@ -4,7 +4,8 @@ const requests={
     fetchPopular:"movie/popular"+Api_key,
     fetchNowPlaying:"movie/now_playing"+Api_key,
     fetchTopRated:"movie/top_rated"+Api_key,
-    fetchTrending:"trending/all/week"+Api_key
+    fetchTrending:"trending/all/week"+Api_key,
+    fetchHorror:"discover/movie"+Api_key+"&with_genres=27"
 
 
 }

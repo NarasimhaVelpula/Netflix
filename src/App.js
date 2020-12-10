@@ -10,6 +10,7 @@ function App(){
       <Row title="Now Playing" fetchURL={request.fetchNowPlaying} bigrow={true} />
       <Row title="Popular" fetchURL={request.fetchPopular} />
       <Row title="Trending" fetchURL={request.fetchTrending} />
+      <Row title="Horror" fetchURL={request.fetchHorror} bigrow={true}/>
     </div>
 
   )
